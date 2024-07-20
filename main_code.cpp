@@ -192,7 +192,7 @@ int main()
         
         });
 
-
+    th1.join();
     while (game == true)
     {
         clock_t start_time = clock(); // задержка падения кубика
